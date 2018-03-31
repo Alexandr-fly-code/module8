@@ -1,0 +1,31 @@
+@media (min-width: 1440px) {
+    .tablet-wrap{
+        display: none;
+    }
+    .desktop-wrap{
+        display: block;
+    }
+
+    .list-item{
+        flex-basis: 20%;
+    }
+    .share{
+        max-width: 40%;
+        margin-top: 12px;
+    }
+    .p-center{
+        margin-top:15px;
+    }
+    .button{
+        margin-top: 25px;
+    }
+    .wrap-list{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+    }
+    .bottom-content{
+        padding-left:200px;
+        padding-right: 200px;
+    }
+}
